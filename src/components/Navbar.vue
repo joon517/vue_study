@@ -15,6 +15,12 @@
                         <v-list-item-subtitle align="center">Dashboard</v-list-item-subtitle>
                     </v-list-item-content>
                 </v-list-item>
+                <v-list-item router to="/">
+                    <v-list-item-content>
+                        <v-icon class="mb-2">fas fa-notes-medical</v-icon>
+                        <v-list-item-subtitle align="center">Doctor</v-list-item-subtitle>
+                    </v-list-item-content>
+                </v-list-item>
             </v-list>
         </v-navigation-drawer>
     </nav>
